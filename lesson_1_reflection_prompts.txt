@@ -1,33 +1,41 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+    Foi mostrada a diferença que existe entre os arquivos
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Fill in your answer here
+    Sim, teria uma maior eficiencia, pois poderia ver o que foi modificado nos arquivos
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    O pró disso, é que será enviado apenas as alterações desejadas, evitando comportamentos que não
+    são desejados na aplicação, e não terá logs que não preciso, que poderia ser algo muito ruim
+    O contra, é o esquecimento, pois poderia ocorrer a falta de um commit importante, que teve um bug,
+    tendo que voltar para um commit muito antigo para que a haja a verificação, assim demorando um pouco
+    
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    Porque o git server para guardar os projetos, principalmente de desenvolvedores, e normalmente 
+    os arquivos estão interligados, sendo assim, membros de uma coisa só.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
-
+    Uso verificando o histórico de modificações do projeto, através das mensagens
+    e pelo próprio código do projeto
+    
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    O controle de versão, permite que eu modifique o projeto, sem o medo de algo buga-lo
+    já que, se alguma coisa acontecer de ruim, poderei voltar para um commit antigo, ou verificar
+    o erro pelo git diff
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    Criar projetos com controle de versão, para poder programar tranquilamente.
